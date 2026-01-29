@@ -1,0 +1,16 @@
+Model Architecture: RAG (Retrieval-Augmented Generation)
+
+1. Vector Database: FAISS (Facebook AI Similarity Search)
+   - Type: In-Memory / CPU
+   - Indexing Strategy: Flat L2
+
+2. Embedding Model: HuggingFace (sentence-transformers/all-MiniLM-L6-v2)
+   - Dimensions: 384
+
+3. LLM Backend: 
+   - API: HuggingFace Inference API
+   - Model: Mistral-7B / Llama-2 (Configurable via API)
+
+Note: Due to the dynamic nature of RAG on constrained environments, 
+the Vector Store is rebuilt at runtime to ensure latest document ingestion.
+A static .pkl file is not applicable for this v0.5 architecture.
