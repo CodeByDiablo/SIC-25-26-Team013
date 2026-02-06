@@ -67,7 +67,8 @@ const app = await client("CodeByDiablo/RAG-Agent");
 const chatResult = await app.predict("/chat", ["What is the conclusion of the paper?", []]);
 console.log(chatResult.data);
 ```
-
+##📂 Repository Structure
+```
 nova-ai-ecosystem/
 ├── data/
 │   ├── rag_documents/       # PDF Research Papers (Knowledge Base)
