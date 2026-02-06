@@ -20,7 +20,7 @@ We have deployed our solutions as independent microservices aggregated by a unif
 
 | Platform | Type | Link | Status |
 | :--- | :--- | :--- | :--- |
-| **Vercel** | **Unified Dashboard (Frontend)** | [**🚀 Launch App**](https://sic-team013-frontend.vercel.app/) | 🟢 Live |
+| **Vercel** | **Unified Dashboard** | [**🚀 Launch App**](https://sic-team013-frontend.vercel.app/) | 🟢 Live |
 | **Hugging Face** | **AI Agent Backend** | [🤖 View Space](https://huggingface.co/spaces/CodeByDiablo/RAG-Agent) | 🟢 Live (API) |
 | **Hugging Face** | **Resume Screener Backend** | [📄 View Space](https://huggingface.co/spaces/CodeByDiablo/Resume-Screener) | 🟢 Live (API) |
 
