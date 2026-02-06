@@ -73,9 +73,13 @@ nova-ai-ecosystem/
 ├── data/
 │   ├── rag_documents/       # PDF Research Papers (Knowledge Base)
 │   └── resumes_dataset/     # Anonymized Professional CVs (Test Set)
-├── deployment_source/
-│   ├── rag_backend/         # LangChain + FAISS Agent implementation
-│   └── resume_screener/     # Llama 3 + Groq implementation
+├── deployment_source/       # Source Code for Microservices
+│   ├── rag_agent/
+│   │   └── app.py           # Logic for RAG Agent (LangChain/FAISS)
+│   └── resume_screener/
+│       └── app.py           # Logic for Resume Screener (Llama 3)
+├── model/
+│   └── model.txt            # Architecture Explanation (Why no .pkl file)
 ├── notebook/
 │   └── rag_research_lab.ipynb # EDA, Prototyping, and Chunking logic
 ├── submission_templates/
@@ -84,6 +88,7 @@ nova-ai-ecosystem/
 │   └── 3 Final Project Report.docx
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project Documentation
+
 ```
 ---
 Samsung Innovation Campus Capstone Project Submitted by Team 013
