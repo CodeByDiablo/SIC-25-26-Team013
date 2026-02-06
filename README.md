@@ -67,7 +67,7 @@ const app = await client("CodeByDiablo/RAG-Agent");
 const chatResult = await app.predict("/chat", ["What is the conclusion of the paper?", []]);
 console.log(chatResult.data);
 ```
-##📂 Repository Structure
+📂 Repository Structure
 ```
 nova-ai-ecosystem/
 ├── data/
@@ -84,5 +84,6 @@ nova-ai-ecosystem/
 │   └── 3 Final Project Report.docx
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project Documentation
-
+```
+---
 Samsung Innovation Campus Capstone Project Submitted by Team 013
