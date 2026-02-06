@@ -79,7 +79,7 @@ nova-ai-ecosystem/
 │   │   └── requirements.txt
 │   └── resume_screener/
 │       └── app.py           # Logic for Resume Screener (Llama 3)
-│   │   └── requirements.txt
+│       └── requirements.txt
 ├── model/
 │   └── model.txt            # Architecture Explanation (Why no .pkl file)
 ├── notebook/
