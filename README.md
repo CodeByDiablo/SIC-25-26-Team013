@@ -76,8 +76,10 @@ nova-ai-ecosystem/
 ├── deployment_source/       # Source Code for Microservices
 │   ├── rag_agent/
 │   │   └── app.py           # Logic for RAG Agent (LangChain/FAISS)
+│   │   └── requirements.txt
 │   └── resume_screener/
 │       └── app.py           # Logic for Resume Screener (Llama 3)
+│   │   └── requirements.txt
 ├── model/
 │   └── model.txt            # Architecture Explanation (Why no .pkl file)
 ├── notebook/
