@@ -88,7 +88,7 @@ nova-ai-ecosystem/
 │   └── 3 Final Project Report.docx
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project Documentation
-
+└──.gitignore
 ```
 ---
 Samsung Innovation Campus Capstone Project Submitted by Team 013
