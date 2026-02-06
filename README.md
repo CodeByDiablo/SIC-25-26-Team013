@@ -76,10 +76,10 @@ nova-ai-ecosystem/
 ├── deployment_source/       # Source Code for Microservices
 │   ├── rag_agent/
 │   │   └── app.py           # Logic for RAG Agent (LangChain/FAISS)
-│   │   └── requirements.txt
+│   │   └── requirements.txt # RAG Agent dependencies
 │   └── resume_screener/
 │       └── app.py           # Logic for Resume Screener (Llama 3)
-│       └── requirements.txt
+│       └── requirements.txt # Resume Screener dependencies
 ├── model/
 │   └── model.txt            # Architecture Explanation (Why no .pkl file)
 ├── notebook/
@@ -87,8 +87,7 @@ nova-ai-ecosystem/
 ├── submission_templates/
 │   ├── 1 Project Action Plan.docx
 │   ├── 2 WBS Worksheet.xlsx
-│   └── 3 Final Project Report.docx
-├── requirements.txt         # Project dependencies
+│   └── 3 Final Project Report.docx        
 └── README.md                # Project Documentation
 └──.gitignore
 ```
