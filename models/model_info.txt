@@ -1,0 +1,13 @@
+SIC Team 013 - Model Architecture Delivery
+
+1. Generative AI Model (LLM):
+   - Model ID: llama-3.3-70b-versatile
+   - Provider: Groq Cloud API (Serverless Inference)
+   - Reason: Selected for 70B parameter reasoning capabilities, which exceeds the capacity of local .pkl files.
+
+2. RAG Retrieval Model:
+   - Embeddings: sentence-transformers/all-MiniLM-L6-v2
+   - Vector Store: FAISS (Facebook AI Similarity Search)
+   - Indexing: Performed in-memory during runtime for security and speed.
+
+Note: As this project uses a Microservices Architecture consuming external APIs, there is no static 'model.pkl' file to upload. The model logic is encapsulated in the deployment source code.
