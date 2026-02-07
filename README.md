@@ -13,6 +13,7 @@ The **Nova AI Ecosystem** is a unified "Headless Microservices" platform designe
 1.  **Recruitment Automation:** An Intelligent Resume Screener that acts as a strict Application Tracking System (ATS). It contextually scores candidates, identifies missing skills, and drafts cover letters.
 2.  **Research Efficiency:** An Agentic RAG (Retrieval-Augmented Generation) system that allows researchers to query dense technical PDF documents using natural language.
 
+![Image](https://github.com/user-attachments/assets/32cef008-accb-498d-914e-a0b0fd5b9a41)
 ---
 
 ## 🚀 Live Deployments (Interactive Demos)
